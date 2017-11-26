@@ -1,2 +1,44 @@
-site_name: Elimuswift Documentation
-theme: material
+# Project information
+site_name: 'Elimuswift Documentation'
+site_description: 'The official documentation for Elimuswift School Manager'
+site_author: 'Leitato Albert'
+site_url: 'https://elimuswift.com'
+
+# Repository
+repo_name: 'elimuswift/docs'
+repo_url: 'https://github.com/elimuswift/docs'
+
+# Copyright
+copyright: 'Copyright &copy; 2016 - 2017 Leitato Albert'
+
+# Configuration
+theme:
+  name: 'material'
+  language: 'en'
+  palette:
+    primary: 'indigo'
+    accent: 'indigo'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+
+# Customization
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/elimuswift'
+    - type: 'twitter'
+      link: 'https://twitter.com/elimuswift'
+
+# Google Analytics
+google_analytics:
+  - 'UA-78400028-1'
+  - 'auto'
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: true
+  - toc:
+      permalink: true
