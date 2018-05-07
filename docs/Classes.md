@@ -1,4 +1,3 @@
-## Classes
 Each class must have at least one stream/Section the section can then be assigned to a teacher. Also Each class must have at least one stream/Section the section can then be assigned to a teacher. Also during student admission students allocated to sections and not a class.
 When you click on the `Classes` link all the classes that are have been added will be listed. 
 	- To create crate a section/stream click on the options button a dropdown will appear select `Add Stream` .

@@ -1,4 +1,3 @@
-## Accounting
 Accounting department enables independent management of school finances in a completely one centralized and organized way through accounting office.
 Student accounts, invoicing, collections and debtors. It also offers full sales ledger capability and split charging.
 
