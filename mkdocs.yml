@@ -9,19 +9,21 @@ repo_name: 'elimuswift/docs'
 repo_url: 'https://github.com/elimuswift/docs'
 
 # Copyright
-copyright: 'Copyright &copy; 2016 - 2018 Leitato Albert'
+copyright: 'Copyright &copy; 2017 - 2018 Leitato Albert'
 
 # Configuration
 theme:
-  name: 'material'
-  language: 'en'
-  palette:
-    primary: 'indigo'
-    accent: 'pink'
+    name: 'material'
+    language: 'en'
+    palette:
+        primary: 'indigo'
+        accent: 'pink'
   # logo: 'images/elimuswift-logo.png'
-  font:
-    text: 'Roboto'
-    code: 'Roboto Mono'
+    font:
+        text: 'Roboto'
+        code: 'Roboto Mono'
+extra_css:
+    - css/extra.css
 
 # Customization
 extra:
@@ -33,29 +35,29 @@ extra:
 
 # Google Analytics
 google_analytics:
-  - 'UA-78400028-1'
-  - 'auto'
+    - 'UA-78400028-1'
+    - 'auto'
 
 # Extensions
 markdown_extensions:
-  - admonition
-  - codehilite:
-      guess_lang: true
-  - toc:
-      permalink: true
-  - pymdownx.arithmatex
-  - pymdownx.betterem:
-      smart_enable: all
-  - pymdownx.caret
-  - pymdownx.critic
-  - pymdownx.details
-  - pymdownx.emoji:
-      emoji_generator: !!python/name:pymdownx.emoji.to_svg
-  - pymdownx.inlinehilite
-  - pymdownx.magiclink
-  - pymdownx.mark
-  - pymdownx.smartsymbols
-  - pymdownx.superfences
-  - pymdownx.tasklist:
-      custom_checkbox: true
-  - pymdownx.tilde
+    - admonition
+    - codehilite:
+        guess_lang: true
+    - toc:
+        permalink: true
+    - pymdownx.arithmatex
+    - pymdownx.betterem:
+        smart_enable: all
+    - pymdownx.caret
+    - pymdownx.critic
+    - pymdownx.details
+    - pymdownx.emoji:
+         emoji_generator: !!python/name:pymdownx.emoji.to_svg
+    - pymdownx.inlinehilite
+    - pymdownx.magiclink
+    - pymdownx.mark
+    - pymdownx.smartsymbols
+    - pymdownx.superfences
+    - pymdownx.tasklist:
+        custom_checkbox: true
+    - pymdownx.tilde

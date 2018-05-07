@@ -62,7 +62,8 @@ For emails to be sent from your application you have to configure the connection
 
 ### Mailgun
 To use mailgun go to your mailgun dashboard and get your credentials.
-	- From the administrator dashboard of your site go to `Settings > Email Settigs` you will see mailgun there paste your credentials and save.
+
+- From the administrator dashboard of your site go to `Settings > Email Settigs` you will see mailgun there paste your credentials and save.
 
 ### Sparkpost 
 Similar to [Mailgun](#mailgun) only that you have to save your keys on the sparkpost part.
